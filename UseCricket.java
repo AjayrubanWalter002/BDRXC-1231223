@@ -54,6 +54,8 @@ System.out.println(i);
 playerList.stream().map(k->k.getName().charAt(k.getName().length()/2)).forEach(y->System.out.println("MIDDELE CHAR="+y));
 long k=playerList.stream().count();
 System.out.println(k);
+System.out.println(k-1);
+System.out.println(k);
 
 
 	}
