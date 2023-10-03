@@ -15,6 +15,7 @@ public class CopyOnWrite {
 		  Integer i=(Integer)iterator.next();
 		  System.out.println(i);
 		  nums.add(5);
+	  nums.add(6);
 	  }
  }
 }
